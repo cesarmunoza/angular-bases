@@ -7,6 +7,7 @@ import { FrutaComponent } from './fruta/fruta.component';
 import { EmpleadoComponent } from './empleado/empleado.component';
 import { CounterModule } from './counter/components/counter/counter.module';
 import { HeroesModule } from './heroes/hero/heroes.module';
+import { DbzModule } from './dbz/dbz.module'
 //import { LoginUsuarioComponent } from './app/login-usuario/login-usuario/login-usuario.component';
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HeroesModule } from './heroes/hero/heroes.module';
   imports: [
     BrowserModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
